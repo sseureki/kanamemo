@@ -7,9 +7,6 @@ export const rootReducer = combineReducers({
 });
 
 export const whitelistedKey = [
-	['kanamemo', 'isAutoInput'],
-	['kanamemo', 'isAutoLevelUp'],
-	['kanamemo', 'hiragana'],
-	['kanamemo', 'katakana'],
+	['kanamemo', 'settings'],
 	['kanamemo', 'scores']
 ];
